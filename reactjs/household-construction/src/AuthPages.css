@@ -1,0 +1,116 @@
+/* AuthPages.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fdfcfd, #f9fafa); /* Vibrant gradient background */
+  }
+  .login-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px;
+    border-radius: 10px;
+  }
+  .img{
+    position: relative;
+    left: 18px;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 198px;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+  .auth-container {
+    padding: 30px;
+    max-width: 600px;
+    width: 90%; /* Responsive width */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .auth-heading {
+    color: #6a11cb;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #6a11cb;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 15px;
+  }
+  
+  .form-button:hover {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    transform: translateY(-2px);
+  }
+  
+  .form-button:active {
+    transform: translateY(1px);
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .message.success {
+    color: #28a745;
+  }
+  
+  .message.error {
+    color: #dc3545;
+  }
+  
